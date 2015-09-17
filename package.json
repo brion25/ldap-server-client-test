@@ -4,9 +4,9 @@
   "description": "Let's create an LDAP server using NodeJS and how can we create and authetication form",
   "main": "index.js",
   "scripts": {
-    "server": "babel-node ./src/LDAPServer.js",
-    "client": "babel-node ./src/LDAPClient.js",
-    "start":"node ./node_modules/concurrently/src/main.js --kill-others \"npm run server\" \"npm run client\""
+    "server": "babel-node ./src/servers/LDAPServer.js",
+    "client": "babel-node ./src/servers/LDAPClient.js",
+    "start": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/brion25/ldap-server-test",
   "devDependencies": {
     "babel": "^5.8.23",
+    "body-parser": "^1.14.0",
     "concurrently": "^0.1.1",
     "express": "^4.13.3",
     "ldapjs": "^0.7.1"

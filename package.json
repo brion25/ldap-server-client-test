@@ -1,0 +1,24 @@
+{
+  "name": "ldap-server-client-test",
+  "version": "1.0.0",
+  "description": "Let's create an LDAP server using NodeJS and how can we create and authetication form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brion25/ldap-server-test.git"
+  },
+  "keywords": [
+    "LDAP",
+    "ldapjs",
+    "express"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/ldap-server-test/issues"
+  },
+  "homepage": "https://github.com/brion25/ldap-server-test"
+}

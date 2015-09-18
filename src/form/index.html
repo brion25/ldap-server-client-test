@@ -2,12 +2,32 @@
 <html>
     <head>
         <title>Sample Form</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <input type="email" id="txtUser">
-        <input type="password" id="txtPass">
-        <button id="btnSubmit">Click me!</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="jumbotron">
+                        <div class="row col-md-12">
+                            <form class="form-inline" novalidate>
+                                <div class="form-group">
+                                    <label for="txtUser">Email</label>
+                                    <input type="email" id="txtUser" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtPass">Password</label>
+                                    <input type="password" id="txtPass" class="form-control">
+                                </div>
+                                <button id="btnSubmit" class="btn btn-default" onclick="return false;">Log in</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="/app.js"></script>
     </body>
 </html>
